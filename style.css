@@ -1,41 +1,42 @@
 body{
     background: #ad1a1a;
 }
+
 #container{
     width:400px;
     margin:0 auto;
-    margin-top:10%;
+    margin-top: 35px;
 }
-/* border */
+
 form {
-    width:70%;
-    margin-top: 10%;
+    width:60%;
+    margin: 15px auto;
     padding: 50px 50PX;
     border-radius:15px;
     background: #ad1a1a;
     border: solid 1px #FFFFFF;
 }
-#container h3{
-    width: 38%;
-    margin: 0 auto;
-    
-    text-emphasis: center;
 
+h2{
+    margin: 0 auto;
+    text-align: center;
 }
-.user:hover{
+
+.user{
     color:#95911B ;
-    margin-left: -5%;
 }
-.pswd:hover{
+
+.pswd{
     color: #95911B
 }   
     
 input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
+    width: 80%;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
 }
 
+input[type=submit] {
+    margin-top: 15px;
+    padding: 5px 10px;
+}

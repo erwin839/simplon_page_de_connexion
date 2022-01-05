@@ -1,6 +1,3 @@
-
-
-        function message() {
-            msg="Connexion réussi!";
-            alert(msg);
-        }
+function message() {
+    alert("Connexion réussi!");
+}
